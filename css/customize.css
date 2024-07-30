@@ -1,16 +1,293 @@
-/* XEAL */
+@font-face {
+    font-family: 'Mluvka-Bold';
+    src: url('./fonts/Mluvka-Bold.woff2') format('woff2'),
+        url('./fonts/Mluvka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-BoldItalic';
+    src: url('./fonts/Mluvka-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-LightItalic';
+    src: url('./fonts/Mluvka-LightItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-ExtraLight';
+    src: url('./fonts/Mluvka-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Mluvka-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-Italic';
+    src: url('./fonts/Mluvka-Italic.woff2') format('woff2'),
+        url('./fonts/Mluvka-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-Light';
+    src: url('./fonts/Mluvka-Light.woff2') format('woff2'),
+        url('./fonts/Mluvka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-ExtraBold';
+    src: url('./fonts/Mluvka-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Mluvka-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-ExtraBoldItalic';
+    src: url('./fonts/Mluvka-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-ExtraLightItalic';
+    src: url('./fonts/Mluvka-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-MediumItalic';
+    src: url('./fonts/Mluvka-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-SemiBoldItalic';
+    src: url('./fonts/Mluvka-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Mluvka-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-Medium';
+    src: url('./fonts/Mluvka-Medium.woff2') format('woff2'),
+        url('./fonts/Mluvka-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-Regular';
+    src: url('./fonts/Mluvka-Regular.woff2') format('woff2'),
+        url('./fonts/Mluvka-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mluvka-SemiBold';
+    src: url('./fonts/Mluvka-SemiBold.woff2') format('woff2'),
+        url('./fonts/Mluvka-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
 
-position: absolute;
-width: 88px;
-height: 37px;
-left: 0px;
-top: 10px;
+.primary {
+color: #809DF2;
+}
+.email {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: var(--lqd-menu-items-top-padding, 10px) var(--lqd-menu-items-right-padding, 15px) var(--lqd-menu-items-bottom-padding, 10px) var(--lqd-menu-items-left-padding, 15px);
+padding-right: 5rem;
+}
+.email span {
+    font-size: 18px;
+}
 
-font-family: 'Clash Display Variable';
-font-style: normal;
+
+#primary-nav a {
+    font-weight: 600;
+}
+
+.banner {
+    background: #F9EBFA;
+    border-radius: 66px;
+}
+
+.bannerheading p {
+    font-family: 'Mluvka-ExtraLight';
+    font-weight: 700;
+    font-size: 21px;
+    color: #000;
+    line-height: 1.4;
+}
+
+.ld-fancy-heading p span {
+    font-family: 'Mluvka-Medium';
+}
+
+.bannerstyle {
+    right: auto;
+    left: 10rem;
+    bottom: -2rem;
+}
+
+
+.starttrails {
+    padding: 1rem 1rem 1rem 2rem;
+    background: #000;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 3rem;
+    color: #fff;
+    font-family: 'Mluvka-Bold';
+    font-size: 21px;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+
+.starttrails dd {
+    margin: 0;
+width: 54.67px;
+height: 54.67px;
+background: radial-gradient(91.87% 91.87% at -17.82% 67.26%, #4220D3 0%, #9BD5FF 100%);
+border-radius: 50%;
+display: grid;
+place-items: center;
+}
+
+
+
+.btnsplot {
+font-family: 'Mluvka-Bold';
 font-weight: 700;
-font-size: 30.2049px;
-line-height: 37px;
-
+font-size: 17.0989px;
 color: #000000;
+display: block;
+margin: 0 auto;
+width: fit-content;
+margin-top: 2rem;
+padding-bottom: 2rem;
+}
 
+.btnsplot span {
+    display: block;
+} 
+
+
+.section1 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  place-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  gap: 20px;
+  position: relative;
+  flex-direction: row;
+  will-change: transform;
+  transform: translateX(0px);
+  animation: scroll var(--_animation-duration, 10s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.section1 li {
+  min-width: 464px;
+  width: 464px;
+}
+.section1 li img {
+  border-radius: 10px;
+}
+
+
+
+.marquee-container {
+
+}
+
+.scroller_ourWork[data-direction=right] {
+  --_animation-direction: reverse;
+}
+
+.scroller_ourWork[data-direction=left] {
+  --_animation-direction: forwards;
+}
+
+.scroller_ourWork[data-speed=fast] {
+  --_animation-duration: 20s;
+}
+
+.scroller_ourWork[data-speed=slow] {
+  --_animation-duration: 80s;
+}
+
+@keyframes scroll {
+  to {
+      transform: translate(calc(-50% - .5rem))
+  }
+}
+@keyframes scroll2 {
+  to {
+      transform: translate(calc(50% + .5rem))
+  }
+}
+
+.section2 {
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+}
+.section2 ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  place-items: flex-start;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  gap: 20px;
+  position: relative;
+  flex-direction: row;
+  will-change: transform;
+  transform: translateX(0px);
+  animation: scroll2 var(--_animation-duration, 7s) var(--_animation-direction, reverse) linear infinite;
+}
+
+.section2 li {
+  min-width: 1000px;
+  width: 1000px;
+}

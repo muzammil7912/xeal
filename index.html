@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="./css/utility.min.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/start-hub-8.css" />
+    <link rel="stylesheet" href="./css/customize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Libre+Baskerville:ital@1&family=Space+Grotesk:wght@600;700&display=swap"
         rel="stylesheet" />
@@ -94,35 +96,19 @@
                         <div class="flex w-60percent lg:w-75percent">
                             <div class="py-10 pr-35 module-logo flex navbar-brand-plain">
                                 <a class="navbar-brand flex p-0 relative" href="./index-start-hub-8.html"
-                                    rel="home"><span class="navbar-brand-inner post-rel"><img class="logo-default"
-                                            src="./webImages/logo.svg" alt="Starthub Eight" /></span></a>
+                                    rel="home"><span class="navbar-brand-inner post-rel">
+                                        <img class="logo-default" src="./webImages/logo.png" alt="Starthub Eight" /></span></a>
                             </div>
+                            <a href="mailto:hello@xealagency.com" class="email">Hello@<span class="primary">xealagency.com</span></a>
                             <div class="module-primary-nav flex">
                                 <div class="navbar-collapse inline-flex p-0 lqd-submenu-default-style"
                                     id="main-header-collapse" aria-expanded="false" role="navigation">
-                                    <ul id="primary-nav"
-                                        class="link-13 link-font-medium link-leading-2em link-black-80 main-nav flex reset-ul inline-ul lqd-menu-counter-right lqd-menu-items-inline main-nav-hover-fill"
-                                        data-submenu-options='{"toggleType": "fade", "handler": "mouse-in-out"}'
-                                        data-localscroll="true"
-                                        data-localscroll-options='{"itemsSelector":"> li > a", "trackWindowScroll": true, "includeParentAsOffset": true}'>
-                                        <li>
-                                            <a href="./page-start-hub-8-services.html" class="py-15 pr-60">Services
-                                                <span class="link-icon inline-flex hide-if-empty right-icon"><i
-                                                        class="lqd-icn-ess icon-ion-ios-arrow-down"></i></span></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="py-15 pr-60">For
-                                                Business</a>
-                                        </li>
-                                        <li>
-                                            <a href="#solutions" class="py-15 pr-60">Solutions
-                                                <span class="link-icon inline-flex hide-if-empty right-icon"><i
-                                                        class="lqd-icn-ess icon-ion-ios-arrow-down"></i></span></a>
-                                        </li>
-                                        <li>
-                                            <a href="./page-start-hub-8-contact.html" class="py-15 pr-60">Contact
-                                                <span class="link-badge text-badge">NEW</span></a>
-                                        </li>
+                                    <ul id="primary-nav"  class="link-13 link-font-medium link-leading-2em link-black-80 main-nav flex reset-ul inline-ul lqd-menu-counter-right lqd-menu-items-inline main-nav-hover-fill">
+                                        <li><a href="#" class="py-15 pr-10">Why Us</a></li>
+                                        <li><a href="#" class="py-15 pr-10">How It Works</a></li>
+                                        <li><a href="#" class="py-15 pr-10">Work</a></li>
+                                        <li><a href="#" class="py-15 pr-10">Pricing</a></li>
+                                        <li><a href="#" class="py-15 pr-10">FAQs</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -135,8 +121,7 @@
                                     data-bs-target="#search-header" aria-controls="search-header" aria-expanded="false"
                                     style=""><span class="ld-module-trigger-txt"
                                         style="transform: translate(-0.2227px, -0.3164px);"></span> <span
-                                        class="ld-module-trigger-icon" style=""><i
-                                            class="text-18 lqd-icn-ess icon-ld-search-2"></i></span></span>
+                                        class="ld-module-trigger-icon" style=""><img src="webImages/search.png" alt=""></span></span>
                                 <div class="ld-module-dropdown collapse flex w-full flex-col fixed overflow-hidden backface-hidden"
                                     id="search-header" aria-expanded="false" role="form">
                                     <div class="ld-search-form-container flex flex-col justify-center h-full mx-auto backface-hidden"
@@ -160,13 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="lqd-stickybar-wrap lqd-stickybar-right flex flex-row items-end justify-start pointer-events-none md:hidden">
-                <a href="#contact-modal"
-                    class="btn btn-solid btn-custom-size btn-icon-right pointer-events-auto w-60 h-60 bg-white text-black rounded-full"
-                    data-lity="#contact-modal"><span class="btn-icon text-black"><i aria-hidden="true"
-                            class="lqd-icn-ess icon-lqd-pen"></i></span></a>
-            </div>
+          
             <div class="lqd-mobile-sec relative">
                 <div class="lqd-mobile-sec relative">
                     <div class="lqd-mobile-sec-inner navbar-header flex items-stretch w-full">
@@ -293,24 +272,22 @@
                                         </div>
                                     </div>
                                     <div class="relative">
-                                        <div class="ld-fancy-heading relative mask-text" data-custom-animations="true"
+                                        <div class="ld-fancy-heading bannerheading relative mask-text" data-custom-animations="true"
                                             data-ca-options='{"animationTarget": ".lqd-split-words .lqd-words .split-inner, .lqd-adv-txt-fig", "duration" : 1000 , "startDelay" : 200 , "delay" : 70 , "ease": "expo.out", "initValues": {"y": "120px", "opacity" : 0} , "animations": {"y": "0px", "opacity" : 1}}'>
                                             <h1 class="ld-fh-element relative lqd-highlight-classic lqd-highlight-grow-bottom lqd-highlight-reset-onhover lqd-split-words mb-0/5em leading-1/1em"
                                                 data-inview="true" data-split-text="true"
                                                 data-split-options='{"type": "words"}'>
-                                                <span class="lqd-adv-txt-item inline-block">Developing
-                                                    <img class="lqd-adv-txt-fig relative inline-flex mx-5 vertical-align-middle rounded-full"
-                                                        width="58" height="58" src="./webImages/banner.jpg"
-                                                        alt="title shape" /> </span><span
-                                                    class="lqd-adv-txt-item">eCommerce websites, apps and
-                                                    <mark class="lqd-highlight"><span
-                                                            class="lqd-highlight-txt">tailor-made</span>
-                                                        <span
-                                                            class="lqd-highlight-inner bg-purple-100 bottom-0/1em left-0"></span>
-                                                    </mark>digital solutions.</span>
+                                                <span class="lqd-adv-txt-item inline-block">BUILD YOUR ONLINE </span> <br>
+                                                <span
+                                                    class="lqd-adv-txt-item">PRESENCE IN
+                                                    <mark class="lqd-highlight"><span class="lqd-highlight-txt">JUST 10 DAYS!</span>
+                                                        <span  class="lqd-highlight-inner bg-purple-100 bottom-0/1em left-0"></span>
+                                                    </mark></span>
                                             </h1>
+                                            <p><span>XEAL</span> is a design agency providing unlimited, world-class designs for a <br><span>flat, fixed price</span>, with no long-term contracts required.</p>
+                                         
                                         </div>
-                                        <div class="absolute bottom-0 right-35percent">
+                                        <div class="absolute bottom-0 bannerstyle">
                                             <figure id="lqd-draw-shape-banner" class="lqd-draw-shape"
                                                 data-lqd-draw-shape="true"
                                                 data-draw-shape-options='{"drawSVG": "0% 0%", "stagger" : 0 , "start": "top center", "end": "center 35%", "scrub" : 1 , "ease": "linear"}'>
@@ -326,95 +303,59 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-12 flex flex-row gap-20 justify-between items-end sm:flex-wrap"
-                                    data-custom-animations="true"
-                                    data-ca-options='{"animationTarget": ".animation-element", "duration" : 1000 , "startDelay" : 1300 , "delay" : 100 , "ease": "expo.out", "initValues": {"scaleX" : 0.7 , "scaleY" : 0.7 , "rotationY" : 10 , "opacity" : 0} , "animations": {"scaleX" : 1 , "scaleY" : 1 , "rotationY" : 0 , "opacity" : 1}}'>
-                                    <div class="w-350 max-w-full sm:w-full">
-                                        <div class="transition-all hover:scale-1/1 animation-element">
-                                            <div class="iconbox flex flex-grow-1 relative mb-20 text-start items-start">
-                                                <div class="iconbox-icon-wrap mr-10">
-                                                    <div
-                                                        class="iconbox-icon-container inline-flex w-40 text-40 text-primary">
-                                                        <svg class="w-1em h-auto" xmlns="http://www.w3.org/2000/svg"
-                                                            width="40.472" height="40.472" viewBox="0 0 40.472 40.472">
-                                                            <rect width="40.472" height="40.472" fill="none"></rect>
-                                                            <path
-                                                                d="M10.529,8h6.745A2.529,2.529,0,0,1,19.8,10.529v1.686a2.529,2.529,0,0,1-2.529,2.529H10.529A2.529,2.529,0,0,1,8,12.216V10.529A2.529,2.529,0,0,1,10.529,8ZM25.706,28.236h6.745a2.529,2.529,0,0,1,2.529,2.529v1.686a2.529,2.529,0,0,1-2.529,2.529H25.706a2.529,2.529,0,0,1-2.529-2.529V30.765A2.529,2.529,0,0,1,25.706,28.236Z"
-                                                                transform="translate(-1.255 -1.255)"
-                                                                fill-rule="evenodd"></path>
-                                                            <path
-                                                                d="M10.529,18.118h6.745A2.529,2.529,0,0,1,19.8,20.647v11.8a2.529,2.529,0,0,1-2.529,2.529H10.529A2.529,2.529,0,0,1,8,32.452v-11.8A2.529,2.529,0,0,1,10.529,18.118ZM25.706,8h6.745a2.529,2.529,0,0,1,2.529,2.529v11.8a2.529,2.529,0,0,1-2.529,2.529H25.706a2.529,2.529,0,0,1-2.529-2.529v-11.8A2.529,2.529,0,0,1,25.706,8Z"
-                                                                transform="translate(-1.255 -1.255)" fill-rule="evenodd"
-                                                                opacity="0.3"></path>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                                <h3 class="lqd-iconbox-heading text-17 mb-0/7em leading-20">
-                                                    Web Design. Build email lists, bigger, faster and
-                                                    more targeted.
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-350 max-w-full sm:w-full">
-                                        <div class="transition-all hover:scale-1/1 animation-element">
-                                            <div class="iconbox flex flex-grow-1 relative mb-20 text-start items-start">
-                                                <div class="iconbox-icon-wrap mr-20">
-                                                    <div
-                                                        class="iconbox-icon-container inline-flex w-40 text-40 text-primary">
-                                                        <svg class="w-1em h-auto" xmlns="http://www.w3.org/2000/svg"
-                                                            width="34.36" height="34.36" viewBox="0 0 34.36 34.36">
-                                                            <rect width="34.36" height="34.36" fill="none"></rect>
-                                                            <path
-                                                                d="M27.265,18.588l-1,5.991,0,.021A1.432,1.432,0,0,1,24.6,25.752L8.322,22.793A1.432,1.432,0,0,1,7.2,21.778L4.589,12.634a1.432,1.432,0,0,1,1.377-1.825H25.617l.878-3.762A1.689,1.689,0,0,1,28.14,5.741H31.1a1.689,1.689,0,0,1,0,3.378H29.48Z"
-                                                                transform="translate(-1.289 -1.632)" fill-rule="evenodd"
-                                                                opacity="0.3"></path>
-                                                            <path
-                                                                d="M12.147,40.295a2.147,2.147,0,1,1,2.147-2.147A2.147,2.147,0,0,1,12.147,40.295Zm12.885,0a2.147,2.147,0,1,1,2.147-2.147A2.147,2.147,0,0,1,25.032,40.295Z"
-                                                                transform="translate(-2.842 -10.23)"
-                                                                fill-rule="evenodd"></path>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                                <h3 class="lqd-iconbox-heading text-17 mb-0/7em leading-20">
-                                                    eCommerce. Friendly Hub helps you rank higher in
-                                                    Google and on
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-350 max-w-full sm:w-full">
-                                        <div class="transition-all hover:scale-1/1 animation-element">
-                                            <div class="iconbox flex flex-grow-1 relative mb-20 text-start items-start">
-                                                <div class="iconbox-icon-wrap mr-20">
-                                                    <div
-                                                        class="iconbox-icon-container inline-flex w-40 text-40 text-primary">
-                                                        <svg class="w-1em h-auto" xmlns="http://www.w3.org/2000/svg"
-                                                            width="39.638" height="39.638" viewBox="0 0 39.638 39.638">
-                                                            <rect width="39.638" height="39.638" fill="none"></rect>
-                                                            <path
-                                                                d="M24.494,9.848a30.811,30.811,0,0,1,2.96,3.554s-6.757,9.91-14.864,9.91q-.77,0-1.494-.065Z"
-                                                                transform="translate(7.23 6.417)"></path>
-                                                            <path
-                                                                d="M22,6.817l-4.137,4.137A4.955,4.955,0,0,0,12.91,15.91L7.173,21.646A18.035,18.035,0,0,1,3,15.91S7.054,6,17.864,6A11.478,11.478,0,0,1,22,6.817Z"
-                                                                transform="translate(1.955 3.91)"></path>
-                                                            <rect width="31.38" height="3.303"
-                                                                transform="translate(8.423 30.447) rotate(-45)"
-                                                                opacity="0.3"></rect>
-                                                        </svg>
-                                                    </div>
-                                                </div>
-                                                <h3 class="lqd-iconbox-heading text-17 mb-0/7em leading-20">
-                                                    Privacy. Add an Instagram Feed to your website or
-                                                    share your
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                           
+          
                     </div>
+                    <a href="#" class="starttrails">
+                        <span>Start Your Free Trial</span>
+                        <dd><img src="webImages/btnarrow.svg" alt=""></dd>
+                    </a>
+                    <a href="#" class="btnsplot">
+                        <span>Only 2 Spot Left</span>
+                        <img src="webImages/spot.svg" alt="">
+                    </a>
+                </section>
+                <section class="section1">
+                    <ul>
+                        <li><img src="https://framerusercontent.com/images/XOXljxvZsIqSi2DMISbzaNEu74.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/QOfzGTJYURtuj0p8Hay7AJrwxwA.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/2SOmYs3McckeTDNeAwuyoh6eig.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/zPOMQNiNe6VrVDc9ZSC3mlPZkaI.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/ZgaydzpqcyBrKz6UrBQPPMxP6w.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/Bfr4NIHly2CDVr1ZPCPofHB2pxI.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/4LfolYx2Y2PQGxxQ3SOAoJupQ.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/08Ryauv7CWjr0Z5sP6Nt4w.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/ICLTfDyDFMNjfHsWyGDu6bHg.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/QXqBHXH9tJNajNU1jmZrWxacko.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/vRl9cPUpfYw597gALBRiNTLNmk.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/XOXljxvZsIqSi2DMISbzaNEu74.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/QOfzGTJYURtuj0p8Hay7AJrwxwA.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/2SOmYs3McckeTDNeAwuyoh6eig.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/zPOMQNiNe6VrVDc9ZSC3mlPZkaI.png" alt=""></li>
+                        <li><img src="https://framerusercontent.com/images/ZgaydzpqcyBrKz6UrBQPPMxP6w.png" alt=""></li>
+                    </ul>
+                </section>
+                <section class="section2">
+
+                    <div class="swiper-container swiper--top">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                            <div class="swiper-slide"><img src="https://framerusercontent.com/images/hHHO19WSEIZZ6MwNuem96Wg8Do.png" alt=""></div>
+                        </div>
+                      </div>
                 </section>
                 <section class="lqd-section design-services pt-100 pb-40" id="services" data-custom-animations="true"
                     data-ca-options='{"animationTarget": ".animation-element, figure, .lqd-split-lines .lqd-lines .split-inner", "duration" : 1100 , "startDelay" : 200 , "delay" : 100 , "ease": "expo.out", "initValues": {"y": "80px", "opacity" : 0} , "animations": {"y": "0px", "opacity" : 1}}'>
@@ -2564,6 +2505,21 @@
             </button>
         </div>
     </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script>
+        let SwiperTop = new Swiper('.swiper--top', {
+  spaceBetween: 0,
+  centeredSlides: true,
+  speed: 12000,
+  autoplay: {
+    delay: 1,
+  },
+  loop: true,
+  slidesPerView:'auto',
+  allowTouchMove: false,
+  disableOnInteraction: true
+});
+    </script>
 </body>
 
 </html>
