@@ -287,7 +287,13 @@ padding-bottom: 2rem;
   animation: scroll2 var(--_animation-duration, 7s) var(--_animation-direction, reverse) linear infinite;
 }
 
-.section2 li {
-  min-width: 1000px;
-  width: 1000px;
+
+.section2 img {
+  width: 100%;
+}
+
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
